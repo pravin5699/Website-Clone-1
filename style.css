@@ -251,26 +251,6 @@ ul li a:hover {
     margin-bottom: 20px;
 }
 
-/* .main .twinder-boxs {
-    display: flex;
-    align-items: center;
-}
-
-.main .twinder-box {
-    margin: 0 0 0 30px;
-}
-
-.main .twinder-boxs {
-    width: 23vw;
-    height: 55vh;
-    background-color: #31313f;
-
-}
-
-.main .twinder-boxs .twi-img img {
-    width: 19vw;
-    margin-bottom: 70px;
-} */
 
 .main .card {
     background-color: #31313f;
@@ -437,4 +417,44 @@ ul li a:hover {
 
 .footer-end-icon svg {
     cursor: pointer;
+}
+
+
+@media only screen and (max-width:430px) {
+    nav .logo {
+        font-size: 14px;
+        margin-left: 10px;
+    }
+
+    ul li a {
+        margin: 0 13px 0 13px;
+        font-size: 10px;
+    }
+
+    .spans .span .hello {
+        margin-bottom: 10px;
+        font-size: 15px;
+        font-weight: 700;
+    }
+
+    .spans .span .jayjay {
+        margin-bottom: 10px;
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .spans .span .freelance {
+        width: 50vw;
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+
+    .main .spans {
+        flex-direction: column;
+    }
+
+
+
+
+
 }
