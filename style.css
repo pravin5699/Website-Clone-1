@@ -1,0 +1,440 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Baloo+Bhaijaan+2:wght@400..800&family=Baloo+Bhaina+2:wght@400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1a1a29;
+    height: 440vh;
+}
+
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 11;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #181824;
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+
+nav .logo {
+    color: #7562e0;
+    font-size: 23px;
+    font-family: "Inter", serif;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    margin: 0 27px 0 27px;
+    font-family: "Inter", serif;
+    font-weight: 600;
+}
+
+ul li a:hover {
+    color: #7562e0;
+    transition: all 0.30s ease-out;
+}
+
+.main {
+    margin-top: 100px;
+}
+
+.main .spans {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main .spans .span {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: "Inter", serif;
+}
+
+/* .main .spans .span :first-child {
+    margin-bottom: 20px;
+} */
+
+.spans .span .hello {
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.spans .span .jayjay {
+    margin-bottom: 15px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.spans .span .freelance {
+    width: 21vw;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.buttons {
+    display: flex;
+    gap: 25px;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.buttons .btn1 {
+    font-size: 14px;
+    background: #7562e0;
+    color: white;
+    padding: 10px 17px 10px 17px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.buttons .btn2 {
+    color: white;
+    background: #1a1a29;
+    border: 3px solid #7562e0;
+    padding: 7px 17px 7px 17px;
+    font-weight: 600;
+    font-size: 14px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.main .img img {
+    width: 20vw;
+    border-radius: 50%;
+}
+
+.main .about {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    margin: auto;
+    margin-top: 40px;
+    font-family: "Inter", serif;
+}
+
+.about .about-me h2 {
+    color: #7562e0;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.about .about-me p {
+    font-size: 14px;
+    margin-bottom: 15px;
+    line-height: 2;
+}
+
+.main .five {
+    display: flex;
+    align-items: center;
+    font-size: 28px;
+    width: 75vw;
+    margin-bottom: 50px;
+}
+
+.main .five h1 {
+    color: #7562e0;
+    font-size: 70px;
+}
+
+
+.main .boxs {
+    margin: 0 15px 0 0;
+    cursor: pointer;
+}
+
+.main .boxs .box {
+    background: #7562e0;
+    width: 17vw;
+    height: 34vh;
+    display: flex;
+    align-items: center;
+    padding-top: 55px;
+}
+
+.main .boxs .bcolor {
+    background: #bdbdbd;
+}
+
+.main .boxs .box .content {
+    margin: 0 0 0 25px;
+
+}
+
+.main .boxs .box .content p {
+    width: 10vw;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: "Inter", serif;
+    line-height: 1.50;
+}
+
+.main .boxs .box .content .svg {
+    margin-bottom: 7px;
+}
+
+.main .boxs-dad {
+    display: flex;
+    width: 70vw;
+    margin: auto;
+}
+
+.main .sec-boxs {
+    width: 23vw;
+    height: 46vh;
+    background-color: #1a1a29;
+    border: 3px solid #7562e0;
+    border-radius: 25px;
+}
+
+
+.main .sec-boxs .sec-svg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+}
+
+
+.main .sec-boxs .sec-svg .p {
+    margin-bottom: 15px;
+    font-weight: 800;
+}
+
+.main .sec-boxs .sec-svg .p2 {
+    font-size: 13px;
+    font-weight: 400;
+    width: 13vw;
+    text-align: center;
+    line-height: 1.9;
+}
+
+.main .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 10px;
+}
+
+.main .about .about-me {
+    margin-bottom: 10px;
+}
+
+.main .grid .sec-svg svg {
+    margin-bottom: 20px;
+}
+
+/* .main .twinder-boxs {
+    display: flex;
+    align-items: center;
+}
+
+.main .twinder-box {
+    margin: 0 0 0 30px;
+}
+
+.main .twinder-boxs {
+    width: 23vw;
+    height: 55vh;
+    background-color: #31313f;
+
+}
+
+.main .twinder-boxs .twi-img img {
+    width: 19vw;
+    margin-bottom: 70px;
+} */
+
+.main .card {
+    background-color: #31313f;
+    width: 23vw;
+    height: 60vh;
+    border-radius: 10px;
+    margin: 0 6px;
+    padding: 0 7px;
+    /* opacity: 0.50; */
+}
+
+.main .card .card-img {
+    padding: 23px;
+}
+
+.main .card .card-img img {
+    border-radius: 10px;
+    width: 19vw;
+    border: 3px solid #7562e0;
+}
+
+.main .card .card-content {
+    padding: 7px 26px;
+}
+
+.main .card .card-content h2 {
+    color: #7562e0;
+    padding-bottom: 15px;
+}
+
+.main .card .card-buttons {
+    padding: 7px 26px;
+    gap: 5px;
+}
+
+
+.main .card .card-buttons .card-btn1 {
+    background: #7562e0;
+    color: white;
+    border: none;
+    padding: 13px 32px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+
+.main .card .card-buttons .card-btn2 {
+    background: #31313f;
+    border: 2px solid #7562e0;
+    color: white;
+    padding: 11px 21px 11px 21px;
+    border-radius: 9px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.main .card .card-buttons .card-btnsame {
+    cursor: pointer;
+}
+
+
+
+
+.main .second-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+
+
+
+
+
+
+.contact-me-dad {
+    display: flex;
+    justify-content: space-between;
+    width: 70vw;
+    margin: auto;
+    margin-top: 50px;
+    font-family: "Inter", serif;
+}
+
+
+.contact-me-dad .about-me h2 {
+    color: #7562e0;
+    margin-bottom: 18px;
+}
+
+.contact-me-dad .about-me p {
+    color: white;
+    margin-bottom: 18px;
+}
+
+.contact-me-dad .contact-me h2 {
+    color: white;
+}
+
+.contact-me-dad .media-icons svg {
+    cursor: pointer;
+}
+
+
+.contact-me h2 {
+    margin-bottom: 18px;
+}
+
+.contact-me .footer-input {
+    background-color: #32323f;
+    width: 25vw;
+    height: 7vh;
+    border-radius: 8px;
+    border: none;
+    padding: 0 0 0 10px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.contact-me .footer-textarea {
+    background-color: #32323f;
+    border: none;
+    border-radius: 8px;
+    height: 12vh;
+    /* padding: 34px 0 0 10px; */
+    padding-top: 34px;
+    padding-left: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    width: 25vw;
+}
+
+
+.contact-me .footer-send-btn {
+    background-color: #7562e0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 9px 28px 9px 28px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+
+
+.footer-end {
+    font-size: 14px;
+    color: gray;
+    display: flex;
+    font-family: "Inter", serif;
+    justify-content: space-between;
+    width: 70vw;
+    margin: auto;
+    margin-top: 200px;
+}
+
+.footer-end-icon {
+    margin-left: 217px;
+    margin-top: 20px;
+}
+
+.footer-end-icon svg {
+    cursor: pointer;
+}
