@@ -390,7 +390,12 @@ ul li a:hover {
     cursor: pointer;
 }
 
-@media only screen and (max-width:430px) {
+@media screen and (max-width:600px) {
+    nav {
+        padding-top: 14px;
+        padding-bottom: 14px;
+    }
+
     nav .logo {
         font-size: 14px;
         margin-left: 10px;
@@ -401,27 +406,69 @@ ul li a:hover {
         font-size: 10px;
     }
 
-    .spans .span .hello {
-        margin-bottom: 10px;
-        font-size: 15px;
-        font-weight: 700;
-    }
-
-    .spans .span .jayjay {
-        margin-bottom: 10px;
-        font-size: 30px;
-        font-weight: 700;
-    }
-
-    .spans .span .freelance {
-        width: 50vw;
-        margin-bottom: 20px;
-        font-size: 15px;
-    }
-
     .main .spans {
         flex-direction: column;
     }
+
+    .spans .span .hello {
+        margin-bottom: 10px;
+        font-size: 23px;
+        font-weight: 600;
+    }
+
+    .spans .span .freelance {
+        width: 72vw;
+        font-size: 17px;
+    }
+
+    .buttons {
+        margin-top: 15px;
+    }
+
+    .main .img img {
+        width: 77vw;
+        margin-top: 50px;
+    }
+
+    .about .about-me p {
+        font-size: 15px;
+        margin-bottom: 25px;
+        line-height: 1.7;
+        width: 80vw;
+    }
+
+    .main .five {
+        font-size: 15px;
+        width: 77vw;
+        gap: 10px;
+    }
+
+    .main .five h1 {
+        font-size: 40px;
+    }
+
+    .main .boxs-dad {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .main .boxs {
+        margin: 0 0 10px 0;
+    }
+
+    .main .boxs .box {
+        width: 70vw;
+        height: 30vh;
+    }
+
+    .main .boxs .box .content p {
+        width: 40vw;
+    }
+
+
+
+
 
 
 
