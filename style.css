@@ -337,6 +337,7 @@ ul li a:hover {
 
 .contact-me .footer-input {
     background-color: #32323f;
+    color: white;
     width: 25vw;
     height: 7vh;
     border-radius: 8px;
@@ -348,6 +349,7 @@ ul li a:hover {
 
 .contact-me .footer-textarea {
     background-color: #32323f;
+    color: white;
     border: none;
     border-radius: 8px;
     height: 12vh;
@@ -525,5 +527,40 @@ ul li a:hover {
     .main .card .card-buttons .card-btn2 {
         padding: 6px 10px 6px 10px;
         font-size: 15px;
+    }
+
+    .contact-me-dad {
+        flex-direction: column;
+    }
+
+    .contact-me-dad .contact-me h2 {
+        font-size: 22px;
+        font-weight: 600;
+        width: 75vw;
+    }
+
+    .contact-me .footer-input {
+        width: 70vw;
+    }
+
+    .contact-me .footer-textarea {
+        height: 10vh;
+        width: 70vw;
+        font-size: 12px;
+        font-weight: 600;
+    }
+
+    .footer-end {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .footer-end p {
+        margin: 8px 0 8px 0;
+    }
+
+    .footer-end-icon {
+        margin-left: 60px;
+        margin-top: 15px;
     }
 }
