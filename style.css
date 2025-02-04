@@ -407,13 +407,15 @@ ul li a:hover {
     }
 
     nav .logo {
-        font-size: 14px;
-        margin-left: 10px;
+        font-size: 15px;
+        margin-left: -20px;
+        width: 1vw;
+        line-height: 1.4;
     }
 
     ul li a {
-        margin: 0 13px 0 13px;
-        font-size: 10px;
+        margin: 0 8px 0 8px;
+        font-size: 13px;
     }
 
     .main .spans {
