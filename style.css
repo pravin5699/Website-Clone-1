@@ -133,6 +133,14 @@ ul li a:hover {
     font-family: "Inter", serif;
 }
 
+.contact-me-dad .about-me {
+    margin-bottom: 40px;
+}
+
+.contact-me-dad .contact-me {
+    margin-bottom: -125px;
+}
+
 .about .about-me h2 {
     color: #7562e0;
     font-size: 20px;
